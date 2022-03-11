@@ -1,0 +1,9 @@
+section{
+  margin: 0 auto;
+  width: 60%;
+}
+ul{
+  background-color: #484b6a;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}

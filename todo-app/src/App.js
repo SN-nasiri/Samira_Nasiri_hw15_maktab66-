@@ -1,15 +1,15 @@
-import React, { Component } from "react";
-import Todos from "./components/todos";
-
+import React, { Component } from 'react';
+import Todo from './components/Todo';
+import './App.css';
 class App extends Component {
-  render() {
+
+  render() { 
     return (
-      <div className="container">
-        <h1 className="text-center">ToDo App </h1>
-        <Todos />
-      </div>
+      <main>
+        <Todo />
+      </main>
     );
   }
 }
-
+ 
 export default App;
