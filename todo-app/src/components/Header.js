@@ -8,8 +8,8 @@ class Header extends Component {
       <div className="top-div-header">
         <h1>TODO</h1>
         <div id="theme-icon" className="cursor">
-          {/* <img src="./images/moon.svg" alt="moon" class="darkImage" /> */}
-          {/* <img src="../images/sun-fill.svg" alt="sun" class="lightImage" /> */}
+          <img src="./images/moon.svg" alt="moon" class="darkImage" />
+          <img src="../images/sun-fill.svg" alt="sun" class="lightImage" />
         </div>
       </div>
     );
